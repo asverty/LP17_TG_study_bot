@@ -8,7 +8,7 @@ PROXY = {'proxy_url': settings.PROXY_URL,
 'urllib3_proxy_kwargs': {'username': settings.PROXY_USERNAME, 'password': settings.PROXY_PASSWORD}}
 
 def greet_user(update, context):
-    print('Вызван /start')
+    print("Let's start")
     update.message.reply_text('Hello, my dear friend!')
 
 def talk_to_me(update, context):
